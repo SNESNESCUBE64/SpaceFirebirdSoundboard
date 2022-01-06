@@ -14,10 +14,10 @@ Believe it or not, there were actually a couple of mistakes in the original sche
 ![Board Front](Images/TST2.png)
 
 **Prototype PCB Front**  
-![Prototype Front](Images/ProtoPCB1.png)
+![Prototype Front](Images/ProtoPCB1.jpg)
 
 **Prototype PCB Back**  
-![Prototype Back](Images/ProtoPCB2.png)
+![Prototype Back](Images/ProtoPCB2.jpg)
 
 ## Bill of Materials
 Most parts that are used on this sound board are off the shelf componts that are still made today. The only ones you might have a problem with are the eprom (strapped for 2716 by default), the 8035 CPU, CA3080E, and MB3712. Some components are not populated. X1, C47, C48, R48, R49, and R53 are not supposed to be populated. Some components are being substituted, for example: 1ss53 diodes are being substituted for 1N4148. 
