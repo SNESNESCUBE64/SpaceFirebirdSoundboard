@@ -1,7 +1,7 @@
 # Space Firebird Soundboard Reproduction
 This was my attempt at making a reproduction sound board for Space Firebird. It is a pretty fun game but I was having problems finding the sound boards. This reproduction board is not a 1:1 recreation, that would be silly. But it should fit in an original cocktail table or upright but that is not confirmed. I have a couple quality of life improvements, like for example all axial capacitors have been replaced with radials. I also used copper pours for the grounding in this. It does roughly follow the original layout however. These are not going to be really for sale by myself, which is why I am uploading the files so you can make your own!
 
-**Status**: Prototype PCBs are being fabricated and functionality is untested.
+**Status**: Prototype PCBs were assembled and tested as functional.
 
 ## Schematic Notes
 Believe it or not, there were actually a couple of mistakes in the original schematics. The first one is IC12 pin 13. In the original schematics, it connects to pin 6 of IC9, this is incorrect, it should be connected to pin 4. Another thing I corrected is in later revisions of the sound board, they added two capacitors to the clear lines on the 74ls164s. Some older revisions have these capacitors hacked on, I went ahead and added them so hacks aren't necessary. One final thing I changed is if I read the schematics right, it was originally strapped for 2708 eproms, I changed the default to 2716 as those are much easier to program for.
@@ -12,6 +12,12 @@ Believe it or not, there were actually a couple of mistakes in the original sche
 
 **Back Render**  
 ![Board Front](Images/TST2.png)
+
+**Prototype PCB Front**
+![Prototype Front](Images/ProtoPCB1.png)
+
+**Prototype PCB Back**
+![Prototype Back](Images/ProtoPCB2.png)
 
 ## Bill of Materials
 Most parts that are used on this sound board are off the shelf componts that are still made today. The only ones you might have a problem with are the eprom (strapped for 2716 by default), the 8035 CPU, CA3080E, and MB3712. Some components are not populated. X1, C47, C48, R48, R49, and R53 are not supposed to be populated. Some components are being substituted, for example: 1ss53 diodes are being substituted for 1N4148. 
