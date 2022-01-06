@@ -7,16 +7,16 @@ This was my attempt at making a reproduction sound board for Space Firebird. It 
 Believe it or not, there were actually a couple of mistakes in the original schematics. The first one is IC12 pin 13. In the original schematics, it connects to pin 6 of IC9, this is incorrect, it should be connected to pin 4. Another thing I corrected is in later revisions of the sound board, they added two capacitors to the clear lines on the 74ls164s. Some older revisions have these capacitors hacked on, I went ahead and added them so hacks aren't necessary. One final thing I changed is if I read the schematics right, it was originally strapped for 2708 eproms, I changed the default to 2716 as those are much easier to program for.
 
 ## Images
-**Front Render**  
+**Front Render**   
 ![Board Front](Images/TST1.png)
 
 **Back Render**  
 ![Board Front](Images/TST2.png)
 
-**Prototype PCB Front**
+**Prototype PCB Front**  
 ![Prototype Front](Images/ProtoPCB1.png)
 
-**Prototype PCB Back**
+**Prototype PCB Back**  
 ![Prototype Back](Images/ProtoPCB2.png)
 
 ## Bill of Materials
