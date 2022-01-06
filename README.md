@@ -18,6 +18,7 @@ Most parts that are used on this sound board are off the shelf componts that are
 
 
 |Item                  |Qty  |Reference(s)                                                                                                |Value              |LibPart                              |Footprint                                                                       |
+|-----|-------|-----------|---------|----------|-------|
 |1                     |5    |C1, C2, C3, C4, C45                                                                                         |220uF              |Device:CP                            |Capacitors_THT:CP_Radial_D8.0mm_P3.80mm                                         |
 |2                     |1    |C5                                                                                                          |220uf              |Device:CP                            |Capacitors_THT:CP_Radial_D8.0mm_P3.80mm                                         |
 |3                     |2    |C6, C44                                                                                                     |47uF               |Device:CP                            |Capacitors_THT:CP_Radial_D6.3mm_P2.50mm                                         |
