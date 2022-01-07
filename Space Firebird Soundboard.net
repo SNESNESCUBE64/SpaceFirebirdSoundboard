@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source "C:\\Users\\mssch\\Documents\\Kicad\\Space Firebird Soundboard\\Space Firebird Soundboard.sch")
+    (source "C:\\Users\\user\\Documents\\Kicad\\Space Firebird Soundboard\\Space Firebird Soundboard.sch")
     (date "12/26/2021 12:29:54 AM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
