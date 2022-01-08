@@ -19,6 +19,17 @@ Believe it or not, there were actually a couple of mistakes in the original sche
 **Prototype PCB Back**  
 ![Prototype Back](Images/ProtoPCB2.jpg)
 
+## Part Substitutions
+- DAC-08
+  - DAC0808LCN
+- MB3712
+  - ECG1423
+  - NTE1423
+- CA3080E (DIP Package Only)
+  - LM3080N
+  - ECG996
+  - NTE996
+
 ## Bill of Materials
 Most parts that are used on this sound board are off the shelf componts that are still made today. The only ones you might have a problem with are the eprom (strapped for 2716 by default), the 8035 CPU, CA3080E, and MB3712. Some components are not populated. X1, C47, C48, R48, R49, and R53 are not supposed to be populated. Some components are being substituted, for example: 1ss53 diodes are being substituted for 1N4148. 
 
